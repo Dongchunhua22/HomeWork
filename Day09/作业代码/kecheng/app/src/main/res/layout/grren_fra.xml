@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的特色课"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一对一辅导"/>
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剩余学习币"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="课程相关"/>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img1"
+            android:id="@+id/img2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img2"
+            android:id="@+id/img3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <TextView
+            android:layout_below="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注的老师"/>
+        <TextView
+            android:layout_marginLeft="110dp"
+            android:layout_below="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"/>
+        <TextView
+            android:layout_marginLeft="205dp"
+            android:layout_below="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的下载"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="订单相关"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img4"
+            android:id="@+id/img5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img5"
+            android:id="@+id/img6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <TextView
+            android:layout_below="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注的老师"/>
+        <TextView
+            android:layout_marginLeft="110dp"
+            android:layout_below="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"/>
+        <TextView
+            android:layout_marginLeft="205dp"
+            android:layout_below="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的下载"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+       android:id="@+id/zhanghu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="我的账户"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/zhanghu"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img7"
+            android:id="@+id/img8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <ImageView
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/img8"
+            android:id="@+id/img9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/about"
+            android:src="@mipmap/ic_launcher"
+            tools:ignore="NotSibling" />
+        <TextView
+            android:layout_below="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注的老师"/>
+        <TextView
+            android:layout_marginLeft="110dp"
+            android:layout_below="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"/>
+        <TextView
+            android:layout_marginLeft="205dp"
+            android:layout_below="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的下载"/>
+
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自助服务"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的消息"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="意见反馈"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在线客服"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
